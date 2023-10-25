@@ -1,5 +1,7 @@
 import About from "../About/About";
 import Banner from "../Banner/Banner";
+import ContactUs from "../ContactUs/ContactUs";
+import OurProducts from "../OurProducts/OurProducts";
 import Services from "../Services/Services";
 
 const Home = () => {
@@ -14,7 +16,12 @@ const Home = () => {
       <section>
         <Services></Services>
       </section>
-      <h1>Home page.</h1>
+      <section>
+        <ContactUs></ContactUs>
+      </section>
+      <section>
+        <OurProducts></OurProducts>
+      </section>
     </div>
   );
 };
